@@ -1,0 +1,35 @@
+/* src/components/styles.css */
+.grid {
+    display: grid;
+    grid-template-rows: repeat(20, 25px);
+    grid-template-columns: repeat(50, 25px);
+  }
+  
+  .cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+  }
+  
+  .cell.start {
+    background-color: green;
+  }
+  
+  .cell.end {
+    background-color: red;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .array-bar {
+    background-color: turquoise;
+    width: 10px;
+    margin: 0 1px;
+  }
+  
+  button {
+    margin: 20px;
+  }
